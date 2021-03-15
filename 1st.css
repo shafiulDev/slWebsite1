@@ -1,0 +1,118 @@
+*{margin:0; padding:0;}
+#wrapper{
+	width:960px;
+	margin:20px auto;
+	background-color:#D9D9DB;
+
+}
+
+#header{
+	background-color:#e6c93c;
+	 padding:12px;
+	 border-bottom:  3px solid #3b3d02;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+#header h2{
+	color:#0f307d;
+	font-family: 'Fredoka One', cursive;
+}
+#header p{
+	color:#85075f;
+}
+
+#manu ul li:last-child{
+	border-right:none;
+}
+#manu{
+	height:39px;
+	background-color:#f4f7a3;
+}
+#manu ul{
+		list-style-type:none;
+	
+}
+#manu ul li{
+
+	border-right:1px solid blue;
+	float:left;
+	position:relative;
+}
+#manu ul li a{
+		display:block;
+		text-decoration:none;
+		padding:10px 20px;
+		display:block;
+		transition:0.5s;
+}
+#manu ul li a:hover{
+	background-color:#f55bf2;
+	color:black;
+	font-family: 'Fredoka One', cursive;	
+}
+
+
+#manu ul li ul{
+	list-style-type:none;
+	padding:0;
+	position:absolute;
+	left:-9999px;	
+}
+#manu ul li:hover ul{
+	left:0px;
+	background-color:#d4e02b;
+}
+#manu ul li ul li{
+	border-right:none;
+	border-left:none;
+	float:none;
+	border-bottom: 1px solid #3b3d02 ;
+
+	width:130px;
+}
+
+#mainwrapper{
+	background-color:white;
+	padding:10px;
+	overflow:hidden;
+}
+#content{
+	width:610px;
+	margin-right:40px;
+	float:left;
+}
+#content h2{
+	color:blue;
+	font-family: 'Fredoka One', cursive;	
+}
+#content p{
+	text-align:justify;
+	padding:10px;
+	
+}
+
+
+#sideber{
+	width:280px;
+	float:left;
+}
+
+
+#sideber h2 {
+	font-family: 'Fredoka One', cursive;	
+	color:blue;
+	margin-bottom:20px;
+}
+#sideber li{
+	list-style-type:circle;
+}
+#sideber li a{
+	text-decoration:none;
+	padding:10px;
+}
+
+#footer{
+	padding:10px;
+	text-align:center;
+	background-color:#acfae4;
+	color:#0b04d1;
+}
